@@ -10,14 +10,16 @@
     margin: 0;
     padding: 0;
     border-collapse: collapse;
+    display: flexbox;
+    justify-content: space-evenly;
 }
 
 .tab-atas a{
-    float: left;
+    flex-grow: 1;
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 200px;
+    padding: 14px;
     text-align: center;
     text-decoration: none;
 }

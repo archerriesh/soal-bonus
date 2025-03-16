@@ -1,0 +1,23 @@
+.w3s{background-color: #282b30;}
+
+.tab-atas{
+    width:100%;
+    background-color: #282b30;
+    overflow: hidden;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.tab-atas a{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 200px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.tab-atas a:hover{background-color: #1e2124;}
+.tab-atas a:active{background-color: #7289DA;}

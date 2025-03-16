@@ -1,10 +1,12 @@
-.w3s{background-color: #282b30;}
+.w3s{
+    background-color: #282b30;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
 .tab-atas{
     width:100%;
     background-color: #282b30;
     overflow: hidden;
-    list-style-type: none;
     margin: 0;
     padding: 0;
 }
@@ -21,3 +23,77 @@
 
 .tab-atas a:hover{background-color: #1e2124;}
 .tab-atas a:active{background-color: #7289DA;}
+
+.HTML{
+    background-color: #D9eee1;
+}
+
+.kanan{
+    text-align: center;
+    padding: 20px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.not-so-button{
+    width: 200px;
+    height: 35px;
+    margin: 3px auto;
+    padding: 5px;
+    border-radius: 50px;
+    line-height: 35px;
+}
+
+.ijo{
+    color: white;
+    background-color: #04aa6d;
+}
+
+.item{
+    color: white;
+    background-color: black;
+}
+
+.PING{
+    color: black;
+    background-color: #ffc0c7;
+}
+
+.kiri{
+    text-align: left;
+    padding: 20px;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.abu{
+    color: white;
+    background-color: #38444d;
+    border-radius: 10px;
+    padding: 15px;
+    width: 420px;
+    height: fit-content;
+    margin: 20px auto;
+    font-weight: bold;
+}
+
+.dongker{
+    margin-top: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #7289DA;
+    background-color: #15202b;
+    padding: 15px;
+    font-size: 14px;
+    line-height: 1.5; 
+}
+
+.ijo-kiri{
+    color: white;
+    background-color: #04aa6d;
+    border-radius: 50px;
+    display: inline-block;
+    padding: 10px 20px;
+    text-align: center;
+    height: 20px;
+    width: 150px;
+}
